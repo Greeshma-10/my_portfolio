@@ -19,6 +19,7 @@ header{
     padding: 2rem;
     gap: 2rem;
 }
+
 .links{
     margin-top: 1rem;
     display: flex;
@@ -35,7 +36,7 @@ a{
     padding: 1.5rem;  
     font-size: 1.15rem;
 }
-.button{
+#button{
     margin-top: 1.5rem;
     display: flex;
     justify-content: center;
@@ -90,7 +91,7 @@ button:hover{
    justify-content: space-between;
    align-items: center;
 }
-.second{
+#second{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,6 +120,9 @@ button:hover{
     padding: 1rem;
     border-radius: 2rem;
     border: 1px solid #7A1CAC;
+    background-color: #2E073F;
+    color: #fff;
+    text-align: center;
 }
 
 .eng{
@@ -136,7 +140,7 @@ p{
     padding-bottom: 2rem;
     font-size: 1.25rem;
 }
-.third{
+#third{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,6 +159,7 @@ p{
     margin-top: 3rem;
     border-radius: 2rem;
     padding: 3rem;
+    
 }
 .corizo{
     display: flex;
@@ -167,6 +172,9 @@ p{
     padding: 1rem;
     border-radius: 2rem;
     border: 1px solid #7A1CAC;
+    background-color: #2E073F;
+    color: #fff;
+    text-align: center;
 }
 .intern p{
     font-size: 1.4rem;
@@ -184,7 +192,7 @@ p{
     color: #2E073F;
     margin-top: 1rem;
 }
-.fourth{
+#fourth{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -317,7 +325,7 @@ a :hover{
     color:#7A1CAC;
     font-size: 25px;
 }
-.fifth{
+#fifth{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -346,6 +354,39 @@ a :hover{
     padding: 3rem;
 }
 .skill li{
+    margin: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
+#sixth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addinfo{
+    margin-top: 4rem;
+    width: 80%;
+    height: 55vmin;
+    background-color: #E4B1F0;
+    padding: 4rem;
+    border-radius: 2.5rem;
+    border: 1px solid #2E073F;
+}
+.addinfo i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #2E073F;
+    margin-top: 1rem;
+}
+.info{
+    background-color: #fff;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    padding: 3rem;
+}
+.inform li{
     margin: 10px;
     font-size: 20px;
     text-align: justify;

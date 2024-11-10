@@ -16,14 +16,16 @@
             <p>greeshmavamannaik@gmail.com</p>
             <a href="https://www.linkedin.com/in/greeshma-v-0b25282b6/">Linkedin</a>
         </div>
-        <div class="button">
-            <button id="btn">Education</button>
-            <button id="btn">Internship Experience</button>
-            <button id="btn">Projects</button>
-            <button id="btn">Technical skills</button>
-            <button id="btn">Additional info</button>
+        <div id="button">
+            <button id="btn" onclick="navigateToSection('second')">Education</button>
+            <button id="btn" onclick="navigateToSection('third')">Internship Experience</button>
+            <button id="btn" onclick="navigateToSection('fourth')">Projects</button>
+            <button id="btn" onclick="navigateToSection('fifth')">Technical skills</button>
+            <button id="btn" onclick="navigateToSection('sixth')">Additional info</button>
         </div>
+        
     </header>
+   
     <div class="home">
         <img src="assets/photo.jpg" height="600px">
         <p id="description"> Hi, I'm Greeshma, a 3rd-year Computer Science Engineering student passionate about using technology to create innovative solutions.<br><br> I thrive on learning new concepts and building projects that merge creativity with functionality. 
@@ -33,9 +35,9 @@
     </div>
     <br><br>
     <hr>
-    <div class="second">
+    <div id="second">
         <div class="education">
-            <header id="edu">EDUCATION</header>
+            <h1 id="edu">EDUCATION</h1>
            <br>
             <i class="fa-solid fa-user-graduate"></i>
                 <div class="eng">
@@ -56,9 +58,9 @@
     <br>
     <br>
     <hr>
-    <div class="third">
+    <div id="third">
         <div class="internship">
-            <header id="intern">INTERNSHIP EXPERIENCE</header>
+            <h1 id="intern">INTERNSHIP EXPERIENCE</h1>
             <i class="fa-solid fa-laptop-code"></i>
             <div class="intern">
                 <div class="corizo">
@@ -72,9 +74,9 @@
     </div>
     <br><br>
     <hr>
-    <div class="fourth">
+    <div id="fourth">
         <div class="projects">
-            <header id="intern">PROJECTS</header>
+            <h1 id="intern">PROJECTS</h1>
             <i class="fa-solid fa-chart-column"></i><br>
             <div class="proj1">
                 <div class="app">
@@ -107,9 +109,9 @@
     <br>
     <br>
     <hr>
-    <div class="fifth">
+    <div id="fifth">
         <div class="techskills">
-            <header id="intern">TECHNICAL SKILLS</header>
+            <h1 id="intern">TECHNICAL SKILLS</h1>
             <i class="fa-solid fa-code"></i><br>
             <div id="skill">
                 <div class="skill">
@@ -121,6 +123,26 @@
                     </ul>
                 </div>
             </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <hr>
+    <div id="sixth">
+        <div class="addinfo">
+            <h1 id="intern">ADDITIONAL INFORMATION</h1>
+            <i class="fa-solid fa-circle-info"></i>
+            <div class="info">
+                <div class="inform">
+                    <ul>
+                        <li>Hosted a program in kannada for Louis Trust For the Visually Challenged.  <b>(26 JAN 2024 and 27 OCT 2024)</b></li>
+                        <li><b>Languages:</b> English (Professional), Kannada (Native), Hindi (Limited). </li>
+                        <li><b>Interests:</b> Writing poetic lines in Kannada, reflecting the passion for literature and creative expression. </li>
+                        
+                    </ul>
+                </div>
+            </div>
+
         </div>
     </div>
     <script src="app.js"></script>
